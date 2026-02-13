@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovatech Aether</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Innovatech Aether</h1>
+       <div class="chatbox">
+    <div class="messages" id="messages"></div>
+    <div class="input-area">
+        <input type="text" id="userInput" placeholder="Ask me anything..." />
+        <input type="file" id="fileInput" style="display: none;" accept=".pdf,.csv,.txt,.md" />
+        
+        <button id="sendBtn">Send</button>
+        <input type="file" id="fileInput" style="display:none;" />
+        <button id="clearBtn">Clear</button>
+        <button id="summarizeBtn">Upload & Summarize</button>
+
+      <!-- Clear Button Added -->
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
